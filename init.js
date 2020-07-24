@@ -11,10 +11,7 @@
 
 (function(global) {
 
-	var atheos = global.atheos;
-	scripts = document.getElementsByTagName('script'),
-		path = scripts[scripts.length - 1].src.split('?')[0],
-		curpath = path.split('/').slice(0, -1).join('/') + '/',
+	var atheos = global.atheos,
 		Range = ace.require('ace/range').Range;
 
 	var self = null;
