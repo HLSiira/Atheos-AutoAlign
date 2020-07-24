@@ -1,6 +1,9 @@
-[{
-    "author": "Andr3as",
-    "version": "1.1.0",
-    "name": "AutoAlignment",
-    "url": "https://github.com/Andr3as/Codiad-AutoAlignment.git"
-}]
+{
+	"author": ["HLSiira", "Andr3as"],
+	"name": "AutoAlign",
+	"description": "Enable vertical alignment for variables within code",
+	"category": "CleanCode",
+	"status": "available",
+	"url": "https://github.com/HLSiira/Atheos-AutoAlign",
+	"version": "1.0.0"
+}
