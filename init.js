@@ -17,7 +17,7 @@
 	var self = null;
 
 
-	amplify.subscribe('system.loadExtra', () => atheos.AutoAlign.init());
+	carbon.subscribe('system.loadExtra', () => atheos.AutoAlign.init());
 
 
 	atheos.AutoAlign = {
@@ -32,7 +32,7 @@
 
 		init: function() {
 			self = this;
-			amplify.subscribe('active.focus', function(path) {
+			carbon.subscribe('active.focus', function(path) {
 				if (atheos.editor.getActive() === null) return;
 				var manager = atheos.editor.getActive().commands;
 				self.tabWidth = atheos.editor.getActive().getSession().getTabSize();
